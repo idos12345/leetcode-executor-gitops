@@ -19,8 +19,8 @@ proxy:
 k8s:
   namespace: "ido-leetcode"
 api:
-  image: "swr.tr-west-1.myhuaweicloud.com/ido/leetcode-executor"
-  tag: ""
+  image: "swr.ap-southeast-3.myhuaweicloud.com/ido/leetcode-executor"
+  tag: "4a603aec563844e79e845817be839078"
   imagePullPolicy: "Always"
   nodeport: "30091"
 secrets:
