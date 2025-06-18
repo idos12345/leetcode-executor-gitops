@@ -9,13 +9,6 @@ database:
 registry:
   url: "swr.tr-west-1.myhuaweicloud.com/ido"
   auth_needed: true
-proxy:
-  http_proxy: "123"
-  https_proxy: "123"
-  HTTP_PROXY: "123"
-  HTTPS_PROXY: "123"
-  NO_PROXY: "localhost,127.0.0.1,10.0.0.0/8"
-  no_proxy: "localhost,127.0.0.1,10.0.0.0/8"
 k8s:
   namespace: "ido-leetcode-argocd"
 api:
