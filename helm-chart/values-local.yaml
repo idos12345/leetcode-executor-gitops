@@ -22,3 +22,8 @@ api:
   image: "leetcode-executor"
   tag: "latest"
   imagePullPolicy: "IfNotPresent"
+  nodeport: "30090"
+secrets:
+  SWR_LOGIN_P: ""
+  SWR_LOGIN_U: ""
+  dockerconfigjson: ""
