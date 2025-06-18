@@ -10,3 +10,4 @@ data:
   HTTPS_PROXY: {{ .Values.proxy.HTTPS_PROXY }}
   http_proxy: {{ .Values.proxy.http_proxy }}
   https_proxy: {{ .Values.proxy.https_proxy }}
+
