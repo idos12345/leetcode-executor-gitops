@@ -22,5 +22,5 @@ api:
   image: "swr.tr-west-1.myhuaweicloud.com/ido/leetcode-executor"
   tag: ""
   imagePullPolicy: "Always"
-  nodeport: 30090
+  nodeport: 30091
 
