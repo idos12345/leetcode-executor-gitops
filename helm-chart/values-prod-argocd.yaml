@@ -17,7 +17,7 @@ proxy:
   NO_PROXY: "localhost,127.0.0.1,10.0.0.0/8"
   no_proxy: "localhost,127.0.0.1,10.0.0.0/8"
 k8s:
-  namespace: "ido-leetcode"
+  namespace: "ido-leetcode-argocd"
 api:
   image: "swr.ap-southeast-3.myhuaweicloud.com/ido/leetcode-executor"
   tag: "4a603aec563844e79e845817be839078"
